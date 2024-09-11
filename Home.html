@@ -1108,7 +1108,7 @@ margin-bottom: 20px !important;
     position: static; /* Removes absolute positioning for better stacking */
     /* margin: 20px auto; */
     max-width: 100%;
-    height: auto; /* Ensure image fits properly on smaller screens */
+    height: 240px; /* Ensure image fits properly on smaller screens */
 	margin-top: 130px !important;
 	margin-left: 0px !important;
 	margin-right: 0px !important;
@@ -1118,15 +1118,17 @@ margin-bottom: 20px !important;
     order: 3;
     font-size: 16px; /* Adjust font size for mobile */
     margin: 20px 0;
-	margin-top: 240px !important;
+	margin-top: 285px !important;
     line-height: 1.6rem;
   }
 
   .mobile-section .button {
-    order: 4;
-    margin-top: 20px;
-	margin-left: 80px !important;
-	margin-right: 80px !important;
+	order: 4;
+    margin-top: 40px;
+    margin-left: auto !important; /* Automatically calculates margins */
+    margin-right: auto !important; /* Automatically calculates margins */
+    display: block; /* Ensure it's treated as a block element */
+    text-align: center; /* Center the button text */
     font-size: 14px; /* Adjust button font size for mobile */
 	
   }

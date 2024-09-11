@@ -1087,53 +1087,52 @@ margin-bottom: 20px !important;
 @media(max-width :768px){
 	
 
-  .mobile-section .row {
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
+	.mobile-section .row {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding-bottom: 0;
+	  margin-bottom: 0;
+	}
+  
+  
+	.mobile-section .heading {
+	  order: 1 !important;
+	  margin-top: -60px !important;
+	  font-size: 16px; /* Adjust font size for mobile */
+	}
+  
+	.mobile-section .deviceimage {
+	  order: 2 !important;
+	  display: block;
+	  position: static; /* Removes absolute positioning for better stacking */
+	  /* margin: 20px auto; */
+	  max-width: 100%;
+	  height: 240px; /* Ensure image fits properly on smaller screens */
+	  margin-top: 130px !important;
+	  margin-left: 0px !important;
+	  margin-right: 0px !important;
+	}
+  
+	.mobile-section .subheading {
+	  order: 3;
+	  font-size: 16px; /* Adjust font size for mobile */
+	  margin: 20px 0;
+	  margin-top: 285px !important;
+	  line-height: 1.6rem;
+	}
+  
+	.mobile-section .button {
+	  order: 4;
+	  margin-top: 40px;
+	  margin-left: auto !important; /* Automatically calculates margins */
+	  margin-right: auto !important; /* Automatically calculates margins */
+	  display: block; /* Ensure it's treated as a block element */
+	  text-align: center; /* Center the button text */
+	  font-size: 14px; /* Adjust button font size for mobile */
+	  
+	}
   }
-
-
-  .mobile-section .heading {
-    order: 1 !important;
-    margin-top: -60px !important;
-    font-size: 16px; /* Adjust font size for mobile */
-  }
-
-  .mobile-section .deviceimage {
-    order: 2 !important;
-    display: block;
-    position: static; /* Removes absolute positioning for better stacking */
-    /* margin: 20px auto; */
-    max-width: 100%;
-    height: auto; /* Ensure image fits properly on smaller screens */
-	margin-top: 130px !important;
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-  }
-
-  .mobile-section .subheading {
-    order: 3;
-    font-size: 16px; /* Adjust font size for mobile */
-    margin: 20px 0;
-	margin-top: 240px !important;
-    line-height: 1.6rem;
-  }
-
-  .mobile-section .button {
-    order: 4;
-    margin-top: 20px;
-	margin-left: 80px !important;
-	margin-right: 80px !important;
-    font-size: 14px; /* Adjust button font size for mobile */
-	
-  }
-}
-
-/* devices image all screen responsive */
-
 
 
 @media (min-width:300px) and (max-width:1399px) {
